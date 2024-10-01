@@ -8,4 +8,4 @@ export async function GET() {
     //PARSEAR O ARQUIVO
     const produtos = JSON.parse(file);
     return NextResponse.json(produtos);
-}
+}   
